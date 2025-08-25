@@ -38,14 +38,15 @@ header nav ul {
   margin: 0;
   padding: 0;
 }
-
 /* Hero / Banner */
 .hero {
   text-align: center;
-  padding: 80px 20px;
+  padding: 100px 20px; /* більше висоти для банера */
   background: url('images/banner.jpg') no-repeat center center;
   background-size: cover;
   color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7); /* додає контраст тексту */
+
 }
 
 .hero h1 {

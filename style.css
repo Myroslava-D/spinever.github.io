@@ -3,4 +3,11 @@ body {
   text-align: center;
   margin-top: 50px;
   background: #f3f3f3;
+  color: #333;
+}
+h1 {
+  color: #0077cc;
+}
+p {
+  font-size: 18px;
 }

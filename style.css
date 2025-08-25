@@ -39,20 +39,24 @@ header nav ul {
   padding: 0;
 }
 
-/* Hero */
+/* Hero / Banner */
 .hero {
   text-align: center;
-  padding: 50px 20px;
-  background: #1a73e8;
+  padding: 80px 20px;
+  background: url('images/banner.jpg') no-repeat center center;
+  background-size: cover;
   color: #fff;
 }
 
 .hero h1 {
-  margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
 /* Casino Cards */

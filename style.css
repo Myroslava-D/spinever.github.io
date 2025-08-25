@@ -41,7 +41,7 @@ header nav ul {
 .hero {
   text-align: center;
   padding: 100px 20px;
-  background: url('images/banner.jpg') no-repeat center center;
+  background: url('images/banner.png') no-repeat center center;
   background-size: cover;
   color: #fff;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.8);

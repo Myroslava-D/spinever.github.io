@@ -1,13 +1,80 @@
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 50px;
-  background: #f3f3f3;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
   color: #333;
 }
+
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
 h1 {
-  color: #0077cc;
+  margin: 0;
 }
-p {
-  font-size: 18px;
+
+main.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 40px auto;
+  gap: 20px;
+  padding: 0 20px;
 }
+
+.casino-card {
+  background-color: white;
+  width: 220px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.casino-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.casino-card img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.casino-card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.casino-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.casino-card a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #0077cc;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.casino-card a:hover {
+  background-color: #005fa3;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+  margin-top: 50px;
